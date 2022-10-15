@@ -9,7 +9,7 @@ int main(void)
 	int no;
 
 	for (no = 0; no < 10; no++)
-		putchat((no % 10) + '0');
+		putchar((no % 10) + '0');
 
 	putchar('\n');
 
